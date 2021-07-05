@@ -13,20 +13,13 @@ sudo apt-get install libsdl2-image-dev
 pkg-config --libs --static glew
 pkg-config --libs --static glfw3
 ```
-## Compiling and running a particular demo
-```
-make all
-```
-## Compile
-```
-make compile
-```
+
 ## Run
 You can run the command `./output <folder-name>` where `<folder-name>` is the folder name of DEM files.
 
 For example: 
 ```
-./output terrain/D056_plt_run
+./ANSI-platform terrain/D056_plt_run
 ```
 ## Control
 ### Light
